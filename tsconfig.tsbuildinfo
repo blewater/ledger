@@ -26,6 +26,11 @@
         "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
         "affectsGlobalScope": false
       },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "affectsGlobalScope": true
+      },
       "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
         "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
         "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
@@ -214,46 +219,6 @@
       "./node_modules/@cosmjs/crypto/build/index.d.ts": {
         "version": "86e8088fec19736f66a6897d158d3623fc008638bbbcbd1bb0a8a3916ca365bb",
         "signature": "86e8088fec19736f66a6897d158d3623fc008638bbbcbd1bb0a8a3916ca365bb",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/ascii.d.ts": {
-        "version": "c0b474f26cc3ff83a7bc92abc4f72ca78cbb22631a9cd5ce28f9ae68802f47b5",
-        "signature": "c0b474f26cc3ff83a7bc92abc4f72ca78cbb22631a9cd5ce28f9ae68802f47b5",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/base64.d.ts": {
-        "version": "f68ad124636abfe69a69d6c87238656dbbf45d4fa0b483caa663cbe7211a67ca",
-        "signature": "f68ad124636abfe69a69d6c87238656dbbf45d4fa0b483caa663cbe7211a67ca",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/bech32.d.ts": {
-        "version": "552350c01eaa40f2d2c09373140c84a0912ccc01f60f4bda406bd4294f195407",
-        "signature": "552350c01eaa40f2d2c09373140c84a0912ccc01f60f4bda406bd4294f195407",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/hex.d.ts": {
-        "version": "7ddadda20f6682a87876634b7669d8e5c0e5c2341a1a1f94038f833c7b38ffcd",
-        "signature": "7ddadda20f6682a87876634b7669d8e5c0e5c2341a1a1f94038f833c7b38ffcd",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/readonly-date/index.d.ts": {
-        "version": "6ba292cc3df1eea225aacb3182f9b0b8eab9d8637a9c698af1e5b58aa5492e9e",
-        "signature": "6ba292cc3df1eea225aacb3182f9b0b8eab9d8637a9c698af1e5b58aa5492e9e",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/rfc3339.d.ts": {
-        "version": "512ef5675be30738a2beeb4e151d03745c7b5207407a31806a81794a32732d53",
-        "signature": "512ef5675be30738a2beeb4e151d03745c7b5207407a31806a81794a32732d53",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/utf8.d.ts": {
-        "version": "665ed80ceab964da0980639e7afdaa6fa5fec783f7cd8d16b3de84751b35065f",
-        "signature": "665ed80ceab964da0980639e7afdaa6fa5fec783f7cd8d16b3de84751b35065f",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/encoding/build/index.d.ts": {
-        "version": "919b8f057a4950174827112a1a3586468fa83fad9ea464e44b5f9d3e3d1b34ee",
-        "signature": "919b8f057a4950174827112a1a3586468fa83fad9ea464e44b5f9d3e3d1b34ee",
         "affectsGlobalScope": false
       },
       "./node_modules/@cosmjs/launchpad/build/logs.d.ts": {
@@ -811,6 +776,11 @@
         "signature": "4de0d2a3693429d68f0ad4891a568e2204723059bffe15537ea482ac1e8358eb",
         "affectsGlobalScope": false
       },
+      "./node_modules/readonly-date/index.d.ts": {
+        "version": "6ba292cc3df1eea225aacb3182f9b0b8eab9d8637a9c698af1e5b58aa5492e9e",
+        "signature": "6ba292cc3df1eea225aacb3182f9b0b8eab9d8637a9c698af1e5b58aa5492e9e",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts": {
         "version": "f9f55a2f6f8e07d3ea10e1154a0fc129ec72c21e57ffe9b8720bbb80ce6407ac",
         "signature": "f9f55a2f6f8e07d3ea10e1154a0fc129ec72c21e57ffe9b8720bbb80ce6407ac",
@@ -1046,43 +1016,8 @@
         "signature": "b59e4901db636a11460fb45a846f219cd114cc7b6f5da2a2212768827bf25523",
         "affectsGlobalScope": false
       },
-      "./node_modules/@cosmjs/utils/build/arrays.d.ts": {
-        "version": "c3f2155f9f3dd1b2c522725d54e3e007ab25dd950ad8ce2f5adc32d52890c5b8",
-        "signature": "c3f2155f9f3dd1b2c522725d54e3e007ab25dd950ad8ce2f5adc32d52890c5b8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/utils/build/assert.d.ts": {
-        "version": "b43aa247d5a35b8ffecf96d5f3c8554db231b5c3265da6d32a9f3c5d35b594d0",
-        "signature": "b43aa247d5a35b8ffecf96d5f3c8554db231b5c3265da6d32a9f3c5d35b594d0",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/utils/build/sleep.d.ts": {
-        "version": "613c9a86acf1144a9549772a7f6cee63aca9d82ddbb9a0f2ba196815acf74973",
-        "signature": "613c9a86acf1144a9549772a7f6cee63aca9d82ddbb9a0f2ba196815acf74973",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/utils/build/typechecks.d.ts": {
-        "version": "bd889fe9e45b4feb90ca754d2b1baefa318fa4ad9827f5a2ab624b96b5bee824",
-        "signature": "bd889fe9e45b4feb90ca754d2b1baefa318fa4ad9827f5a2ab624b96b5bee824",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@cosmjs/utils/build/index.d.ts": {
-        "version": "f1df6b25c09c48169deb3835222cd6a0db9d9bf805a212878889958a54c2eb89",
-        "signature": "f1df6b25c09c48169deb3835222cd6a0db9d9bf805a212878889958a54c2eb89",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/node-hid/index.d.ts": {
-        "version": "cbd29f16803be5dfb60de6d8cd9a7d176566b82c62dbb33b31ad3fad9208f390",
-        "signature": "cbd29f16803be5dfb60de6d8cd9a7d176566b82c62dbb33b31ad3fad9208f390",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@types/ledgerhq__hw-transport-node-hid/index.d.ts": {
-        "version": "c6f97836f50164f287a4f0590df718395d0d3ea359ee5846b6e6ee5647099102",
-        "signature": "c6f97836f50164f287a4f0590df718395d0d3ea359ee5846b6e6ee5647099102",
-        "affectsGlobalScope": false
-      },
       "./src/app.ts": {
-        "version": "fcdfecd26dd3ab2c0112d3386f67814f470e022a186fdf2712894201cca83a38",
+        "version": "579fd8e2ae677248c9741c5ada964b1be66badfcbbe4576629b0c6a091db283a",
         "signature": "43e818adf60173644896298637f47b01d5819b17eda46eaa32d0c7d64724d012",
         "affectsGlobalScope": false
       },
@@ -1235,6 +1170,16 @@
         "version": "d21626223fe52f6b46f7ed03d7f15b2c448ed5dbbe7a39a07d4b3493b62ef7f0",
         "signature": "e4ac4a0e8e4b54d97f7fbc1b9489d2f01956b6fd88e1d43108ac6eb520af4972",
         "affectsGlobalScope": false
+      },
+      "./src/lib/allowJavaScriptModules.ts": {
+        "version": "888b8017d787d213ebc3cb97f4c72dcb7c8cff20d9de8858b0c48031691f7fd4",
+        "signature": "888b8017d787d213ebc3cb97f4c72dcb7c8cff20d9de8858b0c48031691f7fd4",
+        "affectsGlobalScope": false
+      },
+      "./src/lib/decs.d.ts": {
+        "version": "5a0a01deec7346560f609db699db50377e88746af4cf63fca7b6964b0f619884",
+        "signature": "5a0a01deec7346560f609db699db50377e88746af4cf63fca7b6964b0f619884",
+        "affectsGlobalScope": false
       }
     },
     "options": {
@@ -1258,7 +1203,9 @@
       "listFiles": false,
       "pretty": true,
       "lib": [
-        "lib.es2017.d.ts"
+        "lib.es2017.d.ts",
+        "lib.es2020.bigint.d.ts",
+        "lib.dom.d.ts"
       ],
       "types": [
         "node"
@@ -1268,10 +1215,18 @@
     },
     "referencedMap": {
       "./node_modules/@cosmjs/crypto/build/bip39.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/englishmnemonic.d.ts"
+        "./node_modules/@cosmjs/crypto/build/englishmnemonic.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/crypto/build/englishmnemonic.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/crypto/build/hash.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/hmac.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/hash.d.ts"
+        "./node_modules/@cosmjs/crypto/build/hash.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/index.d.ts": [
         "./node_modules/@cosmjs/crypto/build/bip39.d.ts",
@@ -1285,67 +1240,88 @@
         "./node_modules/@cosmjs/crypto/build/secp256k1.d.ts",
         "./node_modules/@cosmjs/crypto/build/secp256k1signature.d.ts",
         "./node_modules/@cosmjs/crypto/build/sha.d.ts",
-        "./node_modules/@cosmjs/crypto/build/slip10.d.ts"
+        "./node_modules/@cosmjs/crypto/build/slip10.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/keccak.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/hash.d.ts"
+        "./node_modules/@cosmjs/crypto/build/hash.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/crypto/build/libsodium.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/crypto/build/random.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/ripemd.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/hash.d.ts"
+        "./node_modules/@cosmjs/crypto/build/hash.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/secp256k1.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/secp256k1signature.d.ts"
+        "./node_modules/@cosmjs/crypto/build/secp256k1signature.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/crypto/build/secp256k1signature.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/sha.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/hash.d.ts"
+        "./node_modules/@cosmjs/crypto/build/hash.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/crypto/build/slip10.d.ts": [
-        "./node_modules/@cosmjs/math/build/index.d.ts"
+        "./node_modules/@cosmjs/math/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
-      "./node_modules/@cosmjs/encoding/build/index.d.ts": [
-        "./node_modules/@cosmjs/encoding/build/ascii.d.ts",
-        "./node_modules/@cosmjs/encoding/build/base64.d.ts",
-        "./node_modules/@cosmjs/encoding/build/bech32.d.ts",
-        "./node_modules/@cosmjs/encoding/build/hex.d.ts",
-        "./node_modules/@cosmjs/encoding/build/rfc3339.d.ts",
-        "./node_modules/@cosmjs/encoding/build/utf8.d.ts"
+      "./node_modules/@cosmjs/json-rpc/build/compatibility.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
-      "./node_modules/@cosmjs/encoding/build/rfc3339.d.ts": [
-        "./node_modules/readonly-date/index.d.ts"
+      "./node_modules/@cosmjs/json-rpc/build/id.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/json-rpc/build/index.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/id.d.ts",
         "./node_modules/@cosmjs/json-rpc/build/jsonrpcclient.d.ts",
         "./node_modules/@cosmjs/json-rpc/build/parse.d.ts",
-        "./node_modules/@cosmjs/json-rpc/build/types.d.ts"
+        "./node_modules/@cosmjs/json-rpc/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/json-rpc/build/jsonrpcclient.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/types.d.ts",
-        "./node_modules/xstream/index.d.ts"
+        "./node_modules/xstream/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/json-rpc/build/parse.d.ts": [
-        "./node_modules/@cosmjs/json-rpc/build/types.d.ts"
+        "./node_modules/@cosmjs/json-rpc/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/json-rpc/build/types.d.ts": [
-        "./node_modules/@cosmjs/json-rpc/build/compatibility.d.ts"
+        "./node_modules/@cosmjs/json-rpc/build/compatibility.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/address.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/launchpad/build/coins.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/cosmosclient.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
         "./node_modules/@cosmjs/launchpad/build/lcdapi/index.d.ts",
         "./node_modules/@cosmjs/launchpad/build/logs.d.ts",
         "./node_modules/@cosmjs/launchpad/build/tx.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/encoding.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/msgs.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/gas.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/types.d.ts",
-        "./node_modules/@cosmjs/math/build/index.d.ts"
+        "./node_modules/@cosmjs/math/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/index.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/address.d.ts",
@@ -1366,27 +1342,33 @@
         "./node_modules/@cosmjs/launchpad/build/signingcosmosclient.d.ts",
         "./node_modules/@cosmjs/launchpad/build/tx.d.ts",
         "./node_modules/@cosmjs/launchpad/build/types.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/wallet.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/wallet.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/auth.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
         "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/bank.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/base.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/tx.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/tx.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/distribution.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/gov.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/index.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/lcdapi/auth.d.ts",
@@ -1399,58 +1381,76 @@
         "./node_modules/@cosmjs/launchpad/build/lcdapi/slashing.d.ts",
         "./node_modules/@cosmjs/launchpad/build/lcdapi/staking.d.ts",
         "./node_modules/@cosmjs/launchpad/build/lcdapi/supply.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/utils.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/utils.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/lcdapi/base.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/tx.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/tx.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/mint.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/slashing.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/staking.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
         "./node_modules/@cosmjs/launchpad/build/lcdapi/base.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/supply.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/lcdapi/lcdclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/lcdapi/utils.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/launchpad/build/logs.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/msgs.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/coins.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/paths.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/index.d.ts"
+        "./node_modules/@cosmjs/crypto/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/pubkey.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/secp256k1hdwallet.d.ts": [
         "./node_modules/@cosmjs/crypto/build/index.d.ts",
         "./node_modules/@cosmjs/launchpad/build/encoding.d.ts",
         "./node_modules/@cosmjs/launchpad/build/signer.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/wallet.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/wallet.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/secp256k1wallet.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/encoding.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/signer.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/signer.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/sequence.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/tx.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/tx.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/signature.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/signer.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/encoding.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/signingcosmosclient.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
@@ -1460,49 +1460,66 @@
         "./node_modules/@cosmjs/launchpad/build/msgs.d.ts",
         "./node_modules/@cosmjs/launchpad/build/signer.d.ts",
         "./node_modules/@cosmjs/launchpad/build/tx.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/tx.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/encoding.d.ts",
         "./node_modules/@cosmjs/launchpad/build/msgs.d.ts",
-        "./node_modules/@cosmjs/launchpad/build/types.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/launchpad/build/types.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/coins.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/coins.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/launchpad/build/wallet.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/ledger-amino/build/index.d.ts": [
         "./node_modules/@cosmjs/ledger-amino/build/launchpadledger.d.ts",
-        "./node_modules/@cosmjs/ledger-amino/build/ledgersigner.d.ts"
+        "./node_modules/@cosmjs/ledger-amino/build/ledgersigner.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/ledger-amino/build/launchpadledger.d.ts": [
         "./node_modules/@cosmjs/crypto/build/index.d.ts",
-        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts"
+        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/ledger-amino/build/ledgersigner.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
         "./node_modules/@cosmjs/ledger-amino/build/launchpadledger.d.ts",
-        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts"
+        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/math/build/decimal.d.ts": [
-        "./node_modules/@cosmjs/math/build/integers.d.ts"
+        "./node_modules/@cosmjs/math/build/integers.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/math/build/index.d.ts": [
         "./node_modules/@cosmjs/math/build/decimal.d.ts",
-        "./node_modules/@cosmjs/math/build/integers.d.ts"
+        "./node_modules/@cosmjs/math/build/integers.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/math/build/integers.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/base/v1beta1/coin.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/crypto/multisig/v1beta1/multisig.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/signing/v1beta1/signing.d.ts": [
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/crypto/multisig/v1beta1/multisig.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts": [
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/base/v1beta1/coin.d.ts",
@@ -1510,20 +1527,24 @@
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/signing/v1beta1/signing.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/directsecp256k1hdwallet.d.ts": [
         "./node_modules/@cosmjs/crypto/build/index.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/signer.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/signer.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/directsecp256k1wallet.d.ts": [
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/signer.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/signer.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/index.d.ts": [
         "./node_modules/@cosmjs/proto-signing/build/directsecp256k1hdwallet.d.ts",
@@ -1532,75 +1553,90 @@
         "./node_modules/@cosmjs/proto-signing/build/pubkey.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/registry.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/signer.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/signing.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/signing.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/paths.d.ts": [
-        "./node_modules/@cosmjs/crypto/build/index.d.ts"
+        "./node_modules/@cosmjs/crypto/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/pubkey.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/registry.d.ts": [
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/index.d.ts"
+        "./node_modules/protobufjs/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/signer.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/proto-signing/build/signing.d.ts": [
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/base/v1beta1/coin.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/signing/v1beta1/signing.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/codec/cosmos/tx/v1beta1/tx.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/codec/google/protobuf/any.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/aminotypes.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
-        "./node_modules/@cosmjs/proto-signing/build/index.d.ts"
+        "./node_modules/@cosmjs/proto-signing/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/confio/proofs.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/auth/v1beta1/auth.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/any.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/abci/v1beta1/abci.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/any.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/abci/types.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/query/v1beta1/pagination.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/v1beta1/coin.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/distribution/v1beta1/distribution.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/v1beta1/coin.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/distribution/v1beta1/query.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/query/v1beta1/pagination.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/v1beta1/coin.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/distribution/v1beta1/distribution.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/staking/v1beta1/query.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/query/v1beta1/pagination.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/staking/v1beta1/staking.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/cosmos/staking/v1beta1/staking.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/v1beta1/coin.d.ts",
@@ -1608,20 +1644,24 @@
         "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/duration.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/types.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/any.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/duration.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/ibc/core/channel/v1/channel.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/client/v1/client.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/ibc/core/channel/v1/query.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/query/v1beta1/pagination.d.ts",
@@ -1629,22 +1669,26 @@
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/channel/v1/channel.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/client/v1/client.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/ibc/core/client/v1/client.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/any.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/ibc/core/commitment/v1/commitment.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/confio/proofs.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/ibc/core/connection/v1/connection.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/commitment/v1/commitment.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/ibc/core/connection/v1/query.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/query/v1beta1/pagination.d.ts",
@@ -1652,7 +1696,8 @@
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/client/v1/client.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/connection/v1/connection.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/abci/types.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/crypto/keys.d.ts",
@@ -1660,64 +1705,77 @@
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/params.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/types.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/crypto/keys.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/crypto/proof.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/params.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/google/protobuf/duration.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/types.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/crypto/proof.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/validator.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/version/types.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/types/validator.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/crypto/keys.d.ts",
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/codec/tendermint/version/types.d.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/index.d.ts": [
         "./node_modules/@cosmjs/stargate/build/aminotypes.d.ts",
         "./node_modules/@cosmjs/stargate/build/logs.d.ts",
         "./node_modules/@cosmjs/stargate/build/queries/index.d.ts",
         "./node_modules/@cosmjs/stargate/build/signingstargateclient.d.ts",
-        "./node_modules/@cosmjs/stargate/build/stargateclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/stargateclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/logs.d.ts": [
-        "./node_modules/@cosmjs/launchpad/build/index.d.ts"
+        "./node_modules/@cosmjs/launchpad/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/auth.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/auth/v1beta1/auth.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/bank.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/v1beta1/coin.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/distribution.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/distribution/v1beta1/query.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/ibc.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/channel/v1/channel.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/channel/v1/query.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/ibc/core/connection/v1/query.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/index.d.ts": [
         "./node_modules/@cosmjs/stargate/build/queries/auth.d.ts",
@@ -1726,198 +1784,236 @@
         "./node_modules/@cosmjs/stargate/build/queries/ibc.d.ts",
         "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
         "./node_modules/@cosmjs/stargate/build/queries/staking.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/utils.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/utils.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/tendermint/crypto/proof.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/index.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/staking.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/staking/v1beta1/query.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/staking/v1beta1/staking.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/queries/utils.d.ts": [
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/query/v1beta1/pagination.d.ts",
-        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/queries/queryclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/signingstargateclient.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
         "./node_modules/@cosmjs/proto-signing/build/index.d.ts",
         "./node_modules/@cosmjs/stargate/build/aminotypes.d.ts",
-        "./node_modules/@cosmjs/stargate/build/stargateclient.d.ts"
+        "./node_modules/@cosmjs/stargate/build/stargateclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/stargate/build/stargateclient.d.ts": [
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/auth/v1beta1/auth.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/abci/v1beta1/abci.d.ts",
         "./node_modules/@cosmjs/stargate/build/codec/cosmos/base/v1beta1/coin.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/index.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts": [
-        "./node_modules/readonly-date/index.d.ts"
+        "./node_modules/readonly-date/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/index.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/index.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/index.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/index.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptor.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/index.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/requests.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/responses.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/index.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptors/index.d.ts": [
-        "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptor.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptor.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/legacy/client.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptor.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/requests.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/responses.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/index.d.ts",
-        "./node_modules/xstream/index.d.ts"
+        "./node_modules/xstream/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/legacy/index.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptor.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/adaptors/index.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/client.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/legacy/requests.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/legacy/responses.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/legacy/responses.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/tendermint-rpc/build/legacy/requests.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/legacy/responses.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts",
-        "./node_modules/readonly-date/index.d.ts"
+        "./node_modules/readonly-date/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/httpclient.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/index.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/rpcclient.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/rpcclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/index.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/httpclient.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/rpcclient.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/websocketclient.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/websocketclient.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/rpcclient.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/index.d.ts",
-        "./node_modules/xstream/index.d.ts"
+        "./node_modules/xstream/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/websocketclient.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/index.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/rpcclient.d.ts",
-        "./node_modules/xstream/index.d.ts"
+        "./node_modules/xstream/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/index.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/requests.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/responses.d.ts",
-        "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/tendermint34client.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/tendermint34client.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/requests.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/responses.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts",
-        "./node_modules/readonly-date/index.d.ts"
+        "./node_modules/readonly-date/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/tendermint34client.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/rpcclients/index.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/requests.d.ts",
         "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/responses.d.ts",
-        "./node_modules/xstream/index.d.ts"
+        "./node_modules/xstream/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts": [
-        "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts"
-      ],
-      "./node_modules/@cosmjs/utils/build/index.d.ts": [
-        "./node_modules/@cosmjs/utils/build/arrays.d.ts",
-        "./node_modules/@cosmjs/utils/build/assert.d.ts",
-        "./node_modules/@cosmjs/utils/build/sleep.d.ts",
-        "./node_modules/@cosmjs/utils/build/typechecks.d.ts"
-      ],
-      "./node_modules/@types/ledgerhq__hw-transport-node-hid/index.d.ts": [
-        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts",
-        "./node_modules/@types/node-hid/index.d.ts",
-        "./node_modules/@types/node/index.d.ts"
+        "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/ledgerhq__hw-transport/index.d.ts": [
-        "./node_modules/@types/node/index.d.ts"
+        "./node_modules/@types/node/index.d.ts",
+        "./src/lib/decs.d.ts"
       ],
-      "./node_modules/@types/node-hid/index.d.ts": [
-        "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/index.d.ts"
+      "./node_modules/@types/long/index.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/assert.d.ts": [
-        "./node_modules/@types/node/assert.d.ts"
+        "./node_modules/@types/node/assert.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/async_hooks.d.ts": [
-        "./node_modules/@types/node/async_hooks.d.ts"
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/base.d.ts": [
         "./node_modules/@types/node/assert.d.ts",
-        "./node_modules/@types/node/ts3.6/base.d.ts"
+        "./node_modules/@types/node/ts3.6/base.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/buffer.d.ts": [
-        "./node_modules/@types/node/buffer.d.ts"
+        "./node_modules/@types/node/buffer.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/child_process.d.ts": [
         "./node_modules/@types/node/child_process.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/net.d.ts",
-        "./node_modules/@types/node/stream.d.ts"
+        "./node_modules/@types/node/stream.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/cluster.d.ts": [
         "./node_modules/@types/node/child_process.d.ts",
         "./node_modules/@types/node/cluster.d.ts",
         "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/net.d.ts"
+        "./node_modules/@types/node/net.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/console.d.ts": [
-        "./node_modules/@types/node/util.d.ts"
+        "./node_modules/@types/node/util.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/constants.d.ts": [
         "./node_modules/@types/node/constants.d.ts",
         "./node_modules/@types/node/crypto.d.ts",
         "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/os.d.ts"
+        "./node_modules/@types/node/os.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/crypto.d.ts": [
         "./node_modules/@types/node/crypto.d.ts",
-        "./node_modules/@types/node/stream.d.ts"
+        "./node_modules/@types/node/stream.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/dgram.d.ts": [
         "./node_modules/@types/node/dgram.d.ts",
         "./node_modules/@types/node/dns.d.ts",
         "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/net.d.ts"
+        "./node_modules/@types/node/net.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/dns.d.ts": [
-        "./node_modules/@types/node/dns.d.ts"
+        "./node_modules/@types/node/dns.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/domain.d.ts": [
         "./node_modules/@types/node/domain.d.ts",
-        "./node_modules/@types/node/events.d.ts"
+        "./node_modules/@types/node/events.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/events.d.ts": [
-        "./node_modules/@types/node/events.d.ts"
+        "./node_modules/@types/node/events.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/fs.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/fs/promises.d.ts",
         "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/url.d.ts"
+        "./node_modules/@types/node/url.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/fs/promises.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/fs/promises.d.ts"
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@types/node/globals.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/@types/node/globals.global.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/http.d.ts": [
         "./node_modules/@types/node/http.d.ts",
         "./node_modules/@types/node/net.d.ts",
         "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/url.d.ts"
+        "./node_modules/@types/node/url.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/http2.d.ts": [
         "./node_modules/@types/node/events.d.ts",
@@ -1927,76 +2023,95 @@
         "./node_modules/@types/node/net.d.ts",
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/node/tls.d.ts",
-        "./node_modules/@types/node/url.d.ts"
+        "./node_modules/@types/node/url.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/https.d.ts": [
         "./node_modules/@types/node/http.d.ts",
         "./node_modules/@types/node/https.d.ts",
         "./node_modules/@types/node/tls.d.ts",
-        "./node_modules/@types/node/url.d.ts"
+        "./node_modules/@types/node/url.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/index.d.ts": [
-        "./node_modules/@types/node/base.d.ts"
+        "./node_modules/@types/node/base.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/inspector.d.ts": [
         "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/inspector.d.ts"
+        "./node_modules/@types/node/inspector.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/module.d.ts": [
         "./node_modules/@types/node/module.d.ts",
-        "./node_modules/@types/node/url.d.ts"
+        "./node_modules/@types/node/url.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/net.d.ts": [
         "./node_modules/@types/node/dns.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/net.d.ts",
-        "./node_modules/@types/node/stream.d.ts"
+        "./node_modules/@types/node/stream.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/os.d.ts": [
-        "./node_modules/@types/node/os.d.ts"
+        "./node_modules/@types/node/os.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/path.d.ts": [
-        "./node_modules/@types/node/path.d.ts"
+        "./node_modules/@types/node/path.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/perf_hooks.d.ts": [
         "./node_modules/@types/node/async_hooks.d.ts",
-        "./node_modules/@types/node/perf_hooks.d.ts"
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/process.d.ts": [
-        "./node_modules/@types/node/tty.d.ts"
+        "./node_modules/@types/node/tty.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/punycode.d.ts": [
-        "./node_modules/@types/node/punycode.d.ts"
+        "./node_modules/@types/node/punycode.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/querystring.d.ts": [
-        "./node_modules/@types/node/querystring.d.ts"
+        "./node_modules/@types/node/querystring.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/readline.d.ts": [
         "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/readline.d.ts"
+        "./node_modules/@types/node/readline.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/repl.d.ts": [
         "./node_modules/@types/node/readline.d.ts",
         "./node_modules/@types/node/repl.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/vm.d.ts"
+        "./node_modules/@types/node/vm.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/stream.d.ts": [
         "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/stream.d.ts"
+        "./node_modules/@types/node/stream.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/string_decoder.d.ts": [
-        "./node_modules/@types/node/string_decoder.d.ts"
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/timers.d.ts": [
-        "./node_modules/@types/node/timers.d.ts"
+        "./node_modules/@types/node/timers.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/tls.d.ts": [
         "./node_modules/@types/node/net.d.ts",
-        "./node_modules/@types/node/tls.d.ts"
+        "./node_modules/@types/node/tls.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/trace_events.d.ts": [
-        "./node_modules/@types/node/trace_events.d.ts"
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/ts3.6/base.d.ts": [
         "./node_modules/@types/node/async_hooks.d.ts",
@@ -2040,28 +2155,35 @@
         "./node_modules/@types/node/vm.d.ts",
         "./node_modules/@types/node/wasi.d.ts",
         "./node_modules/@types/node/worker_threads.d.ts",
-        "./node_modules/@types/node/zlib.d.ts"
+        "./node_modules/@types/node/zlib.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/tty.d.ts": [
         "./node_modules/@types/node/net.d.ts",
-        "./node_modules/@types/node/tty.d.ts"
+        "./node_modules/@types/node/tty.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/url.d.ts": [
         "./node_modules/@types/node/querystring.d.ts",
-        "./node_modules/@types/node/url.d.ts"
+        "./node_modules/@types/node/url.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/util.d.ts": [
-        "./node_modules/@types/node/util.d.ts"
+        "./node_modules/@types/node/util.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/v8.d.ts": [
         "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/v8.d.ts"
+        "./node_modules/@types/node/v8.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/vm.d.ts": [
-        "./node_modules/@types/node/vm.d.ts"
+        "./node_modules/@types/node/vm.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/wasi.d.ts": [
-        "./node_modules/@types/node/wasi.d.ts"
+        "./node_modules/@types/node/wasi.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/worker_threads.d.ts": [
         "./node_modules/@types/node/events.d.ts",
@@ -2069,103 +2191,212 @@
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/node/url.d.ts",
         "./node_modules/@types/node/vm.d.ts",
-        "./node_modules/@types/node/worker_threads.d.ts"
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/@types/node/zlib.d.ts": [
         "./node_modules/@types/node/stream.d.ts",
-        "./node_modules/@types/node/zlib.d.ts"
+        "./node_modules/@types/node/zlib.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/protobufjs/index.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./node_modules/protobufjs/minimal.d.ts": [
-        "./node_modules/protobufjs/index.d.ts"
+        "./node_modules/protobufjs/index.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/readonly-date/index.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.dom.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es5.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "./src/lib/decs.d.ts"
+      ],
+      "./node_modules/xstream/index.d.ts": [
+        "./src/lib/decs.d.ts"
       ],
       "./src/app.ts": [
         "./node_modules/@cosmjs/crypto/build/index.d.ts",
-        "./node_modules/@cosmjs/encoding/build/index.d.ts",
         "./node_modules/@cosmjs/launchpad/build/index.d.ts",
         "./node_modules/@cosmjs/ledger-amino/build/index.d.ts",
         "./node_modules/@cosmjs/stargate/build/index.d.ts",
-        "./node_modules/@cosmjs/utils/build/index.d.ts",
-        "./node_modules/@types/ledgerhq__hw-transport-node-hid/index.d.ts",
-        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts"
+        "./src/lib/allowJavaScriptModules.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/confio/proofs.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/auth/v1beta1/auth.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
-        "./src/codec/google/protobuf/any.ts"
+        "./src/codec/google/protobuf/any.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/auth/v1beta1/query.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/cosmos/auth/v1beta1/auth.ts",
         "./src/codec/cosmos/base/query/v1beta1/pagination.ts",
-        "./src/codec/google/protobuf/any.ts"
+        "./src/codec/google/protobuf/any.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/bank/v1beta1/bank.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
-        "./src/codec/cosmos/base/v1beta1/coin.ts"
+        "./src/codec/cosmos/base/v1beta1/coin.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/bank/v1beta1/query.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/cosmos/bank/v1beta1/bank.ts",
         "./src/codec/cosmos/base/query/v1beta1/pagination.ts",
-        "./src/codec/cosmos/base/v1beta1/coin.ts"
+        "./src/codec/cosmos/base/v1beta1/coin.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/bank/v1beta1/tx.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/cosmos/bank/v1beta1/bank.ts",
-        "./src/codec/cosmos/base/v1beta1/coin.ts"
+        "./src/codec/cosmos/base/v1beta1/coin.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/base/abci/v1beta1/abci.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/google/protobuf/any.ts",
-        "./src/codec/tendermint/abci/types.ts"
+        "./src/codec/tendermint/abci/types.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/base/query/v1beta1/pagination.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/base/v1beta1/coin.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/crypto/multisig/v1beta1/multisig.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/crypto/secp256k1/keys.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/distribution/v1beta1/distribution.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
-        "./src/codec/cosmos/base/v1beta1/coin.ts"
+        "./src/codec/cosmos/base/v1beta1/coin.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/distribution/v1beta1/query.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/cosmos/base/query/v1beta1/pagination.ts",
         "./src/codec/cosmos/base/v1beta1/coin.ts",
-        "./src/codec/cosmos/distribution/v1beta1/distribution.ts"
+        "./src/codec/cosmos/distribution/v1beta1/distribution.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/distribution/v1beta1/tx.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
-        "./src/codec/cosmos/base/v1beta1/coin.ts"
+        "./src/codec/cosmos/base/v1beta1/coin.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/staking/v1beta1/query.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/cosmos/base/query/v1beta1/pagination.ts",
-        "./src/codec/cosmos/staking/v1beta1/staking.ts"
+        "./src/codec/cosmos/staking/v1beta1/staking.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/staking/v1beta1/staking.ts": [
         "./node_modules/@types/long/index.d.ts",
@@ -2174,7 +2405,8 @@
         "./src/codec/google/protobuf/any.ts",
         "./src/codec/google/protobuf/duration.ts",
         "./src/codec/google/protobuf/timestamp.ts",
-        "./src/codec/tendermint/types/types.ts"
+        "./src/codec/tendermint/types/types.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/staking/v1beta1/tx.ts": [
         "./node_modules/@types/long/index.d.ts",
@@ -2182,13 +2414,15 @@
         "./src/codec/cosmos/base/v1beta1/coin.ts",
         "./src/codec/cosmos/staking/v1beta1/staking.ts",
         "./src/codec/google/protobuf/any.ts",
-        "./src/codec/google/protobuf/timestamp.ts"
+        "./src/codec/google/protobuf/timestamp.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/tx/signing/v1beta1/signing.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
         "./src/codec/cosmos/crypto/multisig/v1beta1/multisig.ts",
-        "./src/codec/google/protobuf/any.ts"
+        "./src/codec/google/protobuf/any.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/cosmos/tx/v1beta1/tx.ts": [
         "./node_modules/@types/long/index.d.ts",
@@ -2196,19 +2430,23 @@
         "./src/codec/cosmos/base/v1beta1/coin.ts",
         "./src/codec/cosmos/crypto/multisig/v1beta1/multisig.ts",
         "./src/codec/cosmos/tx/signing/v1beta1/signing.ts",
-        "./src/codec/google/protobuf/any.ts"
+        "./src/codec/google/protobuf/any.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/google/protobuf/any.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/google/protobuf/duration.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/google/protobuf/timestamp.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/abci/types.ts": [
         "./node_modules/@types/long/index.d.ts",
@@ -2217,24 +2455,29 @@
         "./src/codec/tendermint/crypto/keys.ts",
         "./src/codec/tendermint/crypto/proof.ts",
         "./src/codec/tendermint/types/params.ts",
-        "./src/codec/tendermint/types/types.ts"
+        "./src/codec/tendermint/types/types.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/crypto/keys.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/crypto/proof.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/libs/bits/types.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/types/params.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
-        "./src/codec/google/protobuf/duration.ts"
+        "./src/codec/google/protobuf/duration.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/types/types.ts": [
         "./node_modules/@types/long/index.d.ts",
@@ -2242,16 +2485,22 @@
         "./src/codec/google/protobuf/timestamp.ts",
         "./src/codec/tendermint/crypto/proof.ts",
         "./src/codec/tendermint/types/validator.ts",
-        "./src/codec/tendermint/version/types.ts"
+        "./src/codec/tendermint/version/types.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/types/validator.ts": [
         "./node_modules/@types/long/index.d.ts",
         "./node_modules/protobufjs/minimal.d.ts",
-        "./src/codec/tendermint/crypto/keys.ts"
+        "./src/codec/tendermint/crypto/keys.ts",
+        "./src/lib/decs.d.ts"
       ],
       "./src/codec/tendermint/version/types.ts": [
         "./node_modules/@types/long/index.d.ts",
-        "./node_modules/protobufjs/minimal.d.ts"
+        "./node_modules/protobufjs/minimal.d.ts",
+        "./src/lib/decs.d.ts"
+      ],
+      "./src/lib/allowJavaScriptModules.ts": [
+        "./src/lib/decs.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -2289,17 +2538,6 @@
       ],
       "./node_modules/@cosmjs/crypto/build/slip10.d.ts": [
         "./node_modules/@cosmjs/math/build/index.d.ts"
-      ],
-      "./node_modules/@cosmjs/encoding/build/index.d.ts": [
-        "./node_modules/@cosmjs/encoding/build/ascii.d.ts",
-        "./node_modules/@cosmjs/encoding/build/base64.d.ts",
-        "./node_modules/@cosmjs/encoding/build/bech32.d.ts",
-        "./node_modules/@cosmjs/encoding/build/hex.d.ts",
-        "./node_modules/@cosmjs/encoding/build/rfc3339.d.ts",
-        "./node_modules/@cosmjs/encoding/build/utf8.d.ts"
-      ],
-      "./node_modules/@cosmjs/encoding/build/rfc3339.d.ts": [
-        "./node_modules/readonly-date/index.d.ts"
       ],
       "./node_modules/@cosmjs/json-rpc/build/index.d.ts": [
         "./node_modules/@cosmjs/json-rpc/build/id.d.ts",
@@ -2817,22 +3055,7 @@
       "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts": [
         "./node_modules/@cosmjs/tendermint-rpc/build/dates.d.ts"
       ],
-      "./node_modules/@cosmjs/utils/build/index.d.ts": [
-        "./node_modules/@cosmjs/utils/build/arrays.d.ts",
-        "./node_modules/@cosmjs/utils/build/assert.d.ts",
-        "./node_modules/@cosmjs/utils/build/sleep.d.ts",
-        "./node_modules/@cosmjs/utils/build/typechecks.d.ts"
-      ],
-      "./node_modules/@types/ledgerhq__hw-transport-node-hid/index.d.ts": [
-        "./node_modules/@types/ledgerhq__hw-transport/index.d.ts",
-        "./node_modules/@types/node-hid/index.d.ts",
-        "./node_modules/@types/node/index.d.ts"
-      ],
       "./node_modules/@types/ledgerhq__hw-transport/index.d.ts": [
-        "./node_modules/@types/node/index.d.ts"
-      ],
-      "./node_modules/@types/node-hid/index.d.ts": [
-        "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@types/node/assert.d.ts": [
@@ -3242,13 +3465,6 @@
       "./node_modules/@cosmjs/crypto/build/secp256k1signature.d.ts",
       "./node_modules/@cosmjs/crypto/build/sha.d.ts",
       "./node_modules/@cosmjs/crypto/build/slip10.d.ts",
-      "./node_modules/@cosmjs/encoding/build/ascii.d.ts",
-      "./node_modules/@cosmjs/encoding/build/base64.d.ts",
-      "./node_modules/@cosmjs/encoding/build/bech32.d.ts",
-      "./node_modules/@cosmjs/encoding/build/hex.d.ts",
-      "./node_modules/@cosmjs/encoding/build/index.d.ts",
-      "./node_modules/@cosmjs/encoding/build/rfc3339.d.ts",
-      "./node_modules/@cosmjs/encoding/build/utf8.d.ts",
       "./node_modules/@cosmjs/json-rpc/build/compatibility.d.ts",
       "./node_modules/@cosmjs/json-rpc/build/id.d.ts",
       "./node_modules/@cosmjs/json-rpc/build/index.d.ts",
@@ -3359,15 +3575,8 @@
       "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/responses.d.ts",
       "./node_modules/@cosmjs/tendermint-rpc/build/tendermint34/tendermint34client.d.ts",
       "./node_modules/@cosmjs/tendermint-rpc/build/types.d.ts",
-      "./node_modules/@cosmjs/utils/build/arrays.d.ts",
-      "./node_modules/@cosmjs/utils/build/assert.d.ts",
-      "./node_modules/@cosmjs/utils/build/index.d.ts",
-      "./node_modules/@cosmjs/utils/build/sleep.d.ts",
-      "./node_modules/@cosmjs/utils/build/typechecks.d.ts",
-      "./node_modules/@types/ledgerhq__hw-transport-node-hid/index.d.ts",
       "./node_modules/@types/ledgerhq__hw-transport/index.d.ts",
       "./node_modules/@types/long/index.d.ts",
-      "./node_modules/@types/node-hid/index.d.ts",
       "./node_modules/@types/node/assert.d.ts",
       "./node_modules/@types/node/async_hooks.d.ts",
       "./node_modules/@types/node/base.d.ts",
@@ -3417,6 +3626,7 @@
       "./node_modules/protobufjs/index.d.ts",
       "./node_modules/protobufjs/minimal.d.ts",
       "./node_modules/readonly-date/index.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "./node_modules/typescript/lib/lib.es2015.core.d.ts",
       "./node_modules/typescript/lib/lib.es2015.d.ts",
@@ -3475,7 +3685,9 @@
       "./src/codec/tendermint/types/params.ts",
       "./src/codec/tendermint/types/types.ts",
       "./src/codec/tendermint/types/validator.ts",
-      "./src/codec/tendermint/version/types.ts"
+      "./src/codec/tendermint/version/types.ts",
+      "./src/lib/allowJavaScriptModules.ts",
+      "./src/lib/decs.d.ts"
     ]
   },
   "version": "4.2.3"

@@ -49,10 +49,13 @@
     "@ledgerhq/hw-app-cosmos": "^5.46.0",
     "@ledgerhq/hw-transport": "^5.46.0",
     "@ledgerhq/hw-transport-node-hid": "^5.46.0",
+    "@ledgerhq/hw-transport-node-hid-noevents": "^5.46.0",
+    "@ledgerhq/hw-transport-node-hid-singleton": "^5.46.0",
     "@ledgerhq/hw-transport-webusb": "^5.46.0",
     "@ledgerhq/logs": "^5.46.0",
     "@types/ledgerhq__hw-transport": "^4.21.3",
     "@types/ledgerhq__hw-transport-node-hid": "^4.22.2",
+    "node-hid": "^2.1.1",
     "ts-proto": "^1.74.0"
   },
   "devDependencies": {
