@@ -1,3 +1,3 @@
-# ledger
+# Sign with ledger device
 
-stargate ledger send trx
+POC for a prefixed stargate cosmos chain transaction
